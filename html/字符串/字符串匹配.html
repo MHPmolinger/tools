@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>字符串匹配</title>
+    </head>
+    <body>
+        <input type="text" id="match"/><br>
+        <script>
+            var ins=document.getElementById("match");
+            ins.onkeydown=function(e){
+                if(e.keyCode==13){
+                    var p=/v(\d+)b/;
+                    p.exec(this.value);
+                    alert(RegExp.$1);
+                }
+            }
+        </script>
+    </body>
+</html>

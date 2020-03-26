@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <link href="./css/test.css" type="text/css" rel="stylesheet"/>
+        <script src="./js/test.js"></script>
+        <title>test</title>
+    </head>
+    <body>
+        <input type="button" id="button" value="显示时间" onclick="time()"/>(<span style="color: red;">ooo</span>)<br></br>
+        <input type="text" id="readonlyId" />
+        
+        <script>
+            var obj=document.getElementById("readonlyId");
+            readonly(obj);
+            placeholder(obj,"readonly");
+        </script>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+body{
+    text-align: center;
+}
+
+input[type="button"]:hover{
+    color: violet;
+}
+
+#readonly{
+    width: 100px;
+}
