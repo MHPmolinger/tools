@@ -16,3 +16,6 @@ do
             exit 1
     esac
 done
+
+#避免影响后面参数的解析
+OPTIND=1

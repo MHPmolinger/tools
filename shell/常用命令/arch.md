@@ -10,4 +10,5 @@
 ##### unzip
 `unzip f.zip -d dir`    解压f.zip到dir目录
 ##### tar
-`tar xzf f.tar.gz`
+`tar xzf f.tar.gz -C xxx`   将f.tar.gz解压到ccc目录
+`tar xzf f.tar.gz`  将f.tar.gz解压到当前目录
