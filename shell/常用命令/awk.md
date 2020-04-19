@@ -1,0 +1,1 @@
+`cat fasswd|awk -F: 'BEGIN {print "name,shell"} {print $1","$7} END {print "O_O"}'`

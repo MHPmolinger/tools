@@ -5,3 +5,4 @@
 5. 替换本行所有 `sed -i '1s/old/new/g o`
 6. 替换第2行  `sed -i 2s/old/new/ o`
 7. 替换第2-4行  `sed -i 2,4s/old/new/ o`
+8. 打印第2行 `sed -n 2p o`
